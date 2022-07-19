@@ -58,4 +58,31 @@ them find an interest into the history of other cultures and how humanity once l
 
 ---
 
+## **Wireframes:**
+**Header:Navagation bar, logo, Page Title with images:**
+---
+<img src="assets/images/Wireframe-header.png">
+---
+
+**Fun facts page:** 
+---
+<img src="assets/images/Wireframe-fun-facts-page.png"> 
+---
+
+**Footer:**
+---
+<img src="assets/images/Wireframe-footer.png"> 
+---
+
+**Museum page:**
+---
+<img src="assets/images/Wireframe-museum-page.png"> 
+---
+
+**Sign-up page**
+---
+<img src="assets/images/Wireframe-sign-up-page.png"> 
+
+
+--- 
 
