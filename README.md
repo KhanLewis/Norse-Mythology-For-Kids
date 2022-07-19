@@ -36,3 +36,14 @@ them find an interest into the history of other cultures and how humanity once l
 
  #### **Sign-up Page**
  * The purpose of this page is to allow the user to be able to sign up to a monthly newsletter.
+
+ ---
+
+ ## **Future Features**
+ * An interactive questionaire.
+ * Design your own viking page.
+ * Places to visit page.
+
+ ---
+
+ 
