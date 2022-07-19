@@ -54,6 +54,7 @@ them find an interest into the history of other cultures and how humanity once l
 * Colour-Scheme:
   * Mint Cream-F2F7F2
   * Rose Dust-9D5C63
+  * Rich red -E11218
   * Oynx-313638
 
 ---
