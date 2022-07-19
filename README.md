@@ -20,7 +20,7 @@ them find an interest into the history of other cultures and how humanity once l
 ## **Features:**
 
  ####  **Navagation Bar:**
-   * This has all elements to be able to navagate across the website, such as a **Logo** that is a *homepage link*, a **Home** button, **Museum** button and a **Sign-up** button. This is to allow the user easy access to the website as it is in the exact same place across all pages.
+   * This has all elements to be able to navagate across the website, such as a _**Logo**_ that is a *homepage link*, a _**Home**_ button, _**Museum**_ button and a _**Sign-up**_ button. This is to allow the user easy access to the website as it is in the exact same place across all pages.
 
  #### **Landing Page Images:**
  * This will provide the user a good introduction into the website by using bright and striking image of cartoon vikings
@@ -46,4 +46,16 @@ them find an interest into the history of other cultures and how humanity once l
 
  ---
 
- 
+## **Typography and Colour-Scheme**
+* Typography:
+  * Arela-round
+  * Kouenl
+  * Comic-sans
+* Colour-Scheme:
+  * Mint Cream-F2F7F2
+  * Rose Dust-9D5C63
+  * Oynx-313638
+
+---
+
+
