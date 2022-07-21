@@ -137,12 +137,22 @@
 
  }
 
+ #introduction a {
+     color: #3e3e3e;
+     text-decoration: none;
+ }
+
+ #introduction a:hover {
+     font-weight: bolder;
+     font-style: italic;
+ }
+
  /*Norse gods section*/
- 
- 
+
+
  #norse-gods-section {
      position: relative;
-     padding:50px;
+     padding: 50px;
  }
 
 
@@ -157,26 +167,37 @@
      transform: translate(-50%, -50%)
  }
 
- #odin-section {
+ #gods-section-1 {
      width: 40%;
      height: 300px;
      border-bottom: 6px solid #e11218;
      display: inline-block;
-     margin-left: 100px;
+     margin-left: 130px;
      position: absolute;
      text-align: center;
      line-height: 2rem;
-     
-    
+
+
  }
 
- #odin-section h2 {
-   font-size: 2.25rem;
-   text-decoration: underline;
-   
+ #gods-section-1 h2 {
+     font-size: 2.25rem;
+     text-decoration: underline;
+
  }
- #odin-section p {
-    padding-top: 20px;
+
+ #gods-section-1 p {
+     padding-top: 20px;
+ }
+
+ #gods-section-1 a {
+     color: #3e3e3e;
+     text-decoration: none;
+ }
+
+ #gods-section-1 a:hover {
+     font-weight: bolder;
+     font-style: italic;
  }
 
 
@@ -198,3 +219,72 @@
      position: absolute;
      z-index: -1;
  }
+
+ #gods-section-2 {
+     width: 40%;
+     height: 210px;
+     border-bottom: 6px solid #e11218;
+     top: 500px;
+     right: 50%;
+     margin:0 50px 50px 100px;
+     position: absolute;
+     text-align: center;
+     line-height: 2rem;
+     display: inline-block;
+    
+ }
+
+ #gods-section-2 h2 {
+     font-size: 2.25rem;
+     text-decoration: underline;
+     
+
+ }
+
+ #gods-section-2 p {
+    padding-top:20px;
+ }
+
+ #gods-section-2 a {
+    color: #3e3e3e;
+ }
+
+ #gods-section-2 a:hover {
+    font-weight: bolder;
+    font-style: italic;
+ }
+
+ #gods-section-3 {
+     width: 40%;
+     height: 210px;
+     border-bottom: 6px solid #e11218;
+     top: 500px;
+     left: 50%;
+     margin: 0 100px 50px 50px;
+     position: absolute;
+     text-align: center;
+     line-height: 2rem;
+     display: inline-block;
+     
+ }
+
+ #gods-section-3 h2 {
+     font-size: 2.25rem;
+     text-decoration: underline;
+     color: #3e3e3e;
+     
+ }
+
+ #gods-section-3 p {
+    padding-top:20px;
+ }
+
+ #gods-section-3 a {
+    color: #3e3e3e;
+ }
+
+ #gods-section-3 a:hover {
+    font-weight: bolder;
+    font-style: italic;
+ }
+
