@@ -364,10 +364,10 @@
  @media screen and (max-width:1200px) {
 
 
-    #introduction {
-        width:65%;
-        height:270px;
-    }
+     #introduction {
+         width: 65%;
+         height: 270px;
+     }
 
      #norse-gods-section {
          width: 65%;
@@ -377,9 +377,9 @@
      }
 
      #iframe-container {
-        width:100%;
-        margin:0 auto;
-        
+         width: 100%;
+         margin: 0 auto;
+
      }
 
      #gods-section-1,
@@ -397,32 +397,78 @@
      }
 
      #conclusion {
-        width:65%;
-        margin:0 auto;
-        padding-top:420px;
+         width: 65%;
+         margin: 0 auto;
+         padding-top: 420px;
      }
+
      #conclusion h2 {
-        top:320px;
+         top: 320px;
      }
-    #iframe-container-2 {
-        width:100%;
-        
-    }
+
+     #iframe-container-2 {
+         width: 100%;
+
+     }
  }
 
- @media  screen and (max-width:860px) {
+ @media screen and (max-width:860px) {
 
-    #index {
-    clear: left;
-    float:right;
-    margin-left:35px;
-    }
+     #index {
+         clear: left;
+         float: right;
+         margin-left: 35px;
+     }
 
-    #homepage-image {
-        width:100%
-    }
+     #homepage-image {
+         width: 100%
+     }
 
-    #norse-gods-heading h1 {
-        font-size:40px;
-    }
+     #norse-gods-heading h1 {
+         font-size: 40px;
+     }
+ }
+
+ @media screen and (max-width:780px) {
+
+
+
+     #introduction {
+         width: 80%;
+     }
+
+     #norse-gods-section {
+         width: 80%;
+     }
+
+     #conclusion {
+         width: 80%;
+     }
+
+     body p {
+         font-size: 15px;
+     }
+
+ }
+
+ @media screen and (max-width:600px) {
+
+     #logo {
+         width: 55px;
+         height: 55px;
+     }
+
+     #introduction {
+         border: none;
+         overflow: visible;
+     }
+
+     #introduction h2 {
+         text-align: center;
+     }
+
+     #conclusion h2 {
+         padding-top: 20px;
+         font-size: 20px;
+     }
  }
