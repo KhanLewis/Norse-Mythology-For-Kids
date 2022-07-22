@@ -399,7 +399,7 @@
      #conclusion {
         width:65%;
         margin:0 auto;
-        padding-top:400px;
+        padding-top:420px;
      }
      #conclusion h2 {
         top:320px;
@@ -412,5 +412,17 @@
 
  @media  screen and (max-width:860px) {
 
-    
+    #index {
+    clear: left;
+    float:right;
+    margin-left:35px;
+    }
+
+    #homepage-image {
+        width:100%
+    }
+
+    #norse-gods-heading h1 {
+        font-size:40px;
+    }
  }
