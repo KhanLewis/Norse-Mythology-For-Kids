@@ -359,13 +359,27 @@
 
 
  /*media queries*/
+
+ /*medium sized screens */
  @media screen and (max-width:1200px) {
+
+
+    #introduction {
+        width:65%;
+        height:270px;
+    }
 
      #norse-gods-section {
          width: 65%;
          height: 1200px;
          margin: 0 auto;
 
+     }
+
+     #iframe-container {
+        width:100%;
+        margin:0 auto;
+        
      }
 
      #gods-section-1,
@@ -381,4 +395,22 @@
          position: static;
          text-align: center;
      }
+
+     #conclusion {
+        width:65%;
+        margin:0 auto;
+        padding-top:400px;
+     }
+     #conclusion h2 {
+        top:320px;
+     }
+    #iframe-container-2 {
+        width:100%;
+        
+    }
+ }
+
+ @media  screen and (max-width:860px) {
+
+    
  }
