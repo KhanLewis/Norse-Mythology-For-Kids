@@ -363,6 +363,10 @@
      padding: 10px;
      color: #3e3e3e;
  }
+ .social-media i:hover {
+    color:#e11218;
+
+ }
 
  .social-media-fixed {
      position: static;
@@ -421,10 +425,6 @@
     height:100%;
  }
  
- .grid-item-3 {
-    
-    
- }
  .grid-item-4 {
     grid-column: span 1;
     grid-row: span 1;
@@ -436,9 +436,7 @@
     height:100%;
  }
 
- .grid-item-5 {
-   
- }
+
  .grid-item-6 {
     grid-column: span 1;
     grid-row: span 1;
@@ -450,11 +448,6 @@
     height:100%;
  }
 
- 
- 
- .grid-item-7 {
-    
- }
  
  
 

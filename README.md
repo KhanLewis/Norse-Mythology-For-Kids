@@ -53,9 +53,9 @@ them find an interest into the history of other cultures and how humanity once l
   * Comic-sans
 * Colour-Scheme:
   * Mint Cream-F2F7F2
-  * Rose Dust-9D5C63
+  * Dark grey- 3E3E3E
   * Rich red -E11218
-  * Oynx-313638
+ 
 
 ---
 
@@ -68,22 +68,22 @@ them find an interest into the history of other cultures and how humanity once l
 **Fun facts page:** 
 ---
 <img src="assets/images/Wireframe-fun-facts-page.png"> 
----
+
 
 **Footer:**
 ---
-<img src="assets/images/Wireframe-footer.png"> 
----
+<img src="assets/images/Wireframe-footer.png">
+
 
 **Museum page:**
 ---
 <img src="assets/images/Wireframe-museum-page.png"> 
----
+
 
 **Sign-up page**
 ---
 <img src="assets/images/Wireframe-sign-up-page.png"> 
 
 
---- 
+
 
