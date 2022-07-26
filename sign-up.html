@@ -37,8 +37,9 @@
     </header>
     <section class="form-section">
         <div><h1>Join our newsletter!</h1>
-        <p>Sign-up to recieve monthly Norse mythology Facts and latest news on new discorveries. </p></div>
+        <p>Sign-up to recieve monthly Norse mythology facts and latest news on new discoveries! </p></div>
         <form action="https://formdump.codeinstitute.net/" method="post" class="newsletter">
+            <br>
             <div>
                 <label for="fname">First Name:</label>
                 <input id="fname" name="first_name" type="text" placeholder="First Name" required>
@@ -49,15 +50,26 @@
             </div>
             <div>
                 <label for="email">Email:</label>
-                <input id="email" name="email" type="email" placeholder="Email" required>
+                <input id="email" name="email" type="email" placeholder="Email Address" required>
             </div>
-            <div>
+            <br>
+            <div class="rate-us">
                 <h3>RATE US!</h3>
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
+                <br>
+                <label for="great">GREAT</label>
+                <input type="radio" id="great" name="rating" value="great">
+                <label for="good">GOOD</label>
+                <input type="radio" id="good" name="rating" value="good">
+                <label for="bad">BAD</label>
+                <input type="radio" id="bad" name="rating" value="bad">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Sign-up">
+                <input type="reset" value="reset form">
             </div>
         </form>
+        <div class="form-image"><img src="assets/images/form-page-image-2.png" alt="six cartoon vikings standing in a row."></div>
        
     </section>
 
