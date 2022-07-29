@@ -31,7 +31,7 @@ header {
 
 .logo {
     float: left;
-    width: 8%;
+    width: 4rem;
     height: 75px;
     position: fixed;
     z-index: 2;
@@ -125,7 +125,8 @@ header {
     width: 75%;
     text-align: center;
     border-bottom: 5px solid #e11218 ;
-    padding:50px;
+    padding-top:50px;
+    padding-bottom:50px;
     line-height: 1.5em;
 }
 
@@ -139,8 +140,8 @@ header {
 
 .grid-part-video-1 {
     grid-column: span 1;
-    width:100%;
-    margin-left:20%;
+    width:80%;
+    margin-left:10%;
     
 }
 .grid-part-odin {
@@ -199,30 +200,10 @@ header {
     width:100%;
     height:500px;
 }
-/* all styles for the footer including the social media icons*/
- footer {
-     height: 50px;
-     width: 100%;
+.grid-part-video-1 iframe {
+    width:100%;
 }
- .social-media {
-     text-align: center;
-}
- .social-media li {
-     display: inline;
-}
- .social-media i {
-     font-size: 3rem;
-     margin: 10%;
-     padding: 10px;
-     color: #3e3e3e;
-}
- .social-media i:hover {
-     color: #e11218;
-}
- .social-media-static {
-     position: static;
-     bottom: 0;
-}
+
 /* all of the styles for the museum page */
  .grid-container {
      display: grid;
@@ -367,5 +348,63 @@ footer {
 
 /* all of the media queries for different screen sizes*/
 
-/*medium sized screens */
- 
+/*mobile phone screen min=390px*/
+
+@media screen and (max-width:390px) 
+{
+
+/*overall styles and homepage*/
+    .title {
+        font-size: 175%;
+    }
+    .index {
+        letter-spacing: 0;
+    }
+    .logo {
+        top:30px;
+    }
+    .grid-part {
+        margin:0;
+        padding:0
+    }
+    .grid-part-intro {
+        grid-column: span 2;
+        width: auto;
+    }
+    .grid-part-heading {
+        grid-column: span 2;
+        width:100%;
+        font-size: 150%;
+    }
+    .grid-part-video-1{
+        grid-column: span 2;
+        overflow: hidden;
+        width:100%;
+        
+    }
+    .grid-part-odin{
+        grid-column: span 2;
+        text-align: center;
+    }
+    .grid-part-thor {
+        grid-column: span 2;
+    }
+    .grid-part-freyja {
+        grid-column: span 2;
+    }
+    .grid-part-video-2 {
+        grid-column: span 2;
+        width:100%;
+    }
+    .grid-part-video-2 iframe {
+        height:350px
+       }
+    .grid-part h2 {
+        line-height: 50px;
+    }
+    .social-media i {
+        margin:20px;
+       }
+/*styles for museum page*/
+      
+    }
