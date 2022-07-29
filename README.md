@@ -62,35 +62,35 @@ them find an interest into the history of other cultures and how humanity once l
 ## **Wireframes:**
 **Header: Navigation bar, logo, Page Title with images:**
 ---
-<img src="assets/images/Wireframe-header.png" width="100%" height="500px">
+<img src="assets/images-readme/Wireframe-header.png" width="100%" height="500px">
 
 
 **Landing page Main section:** 
 ---
-<img src="assets/images/Wireframe-fun-facts-page.png" width="100%" height="500px"> 
+<img src="assets/images-readme/Wireframe-fun-facts-page.png" width="100%" height="500px"> 
 
 
 **Footer:**
 ---
-<img src="assets/images/Wireframe-footer.png" width="100%" height="500px">
+<img src="assets/images-readme/Wireframe-footer.png" width="100%" height="500px">
 
 
 **Museum page:**
 ---
-<img src="assets/images/Wireframe-museum-page.png" width="100%" height="500px"> 
+<img src="assets/images-readme/Wireframe-museum-page.png" width="100%" height="500px"> 
 
 
 **Sign-up page**
 ---
-<img src="assets/images/Wireframe-sign-up-page.png" width="100%" height="600px">
+<img src="assets/images-readme/Wireframe-sign-up-page.png" width="100%" height="600px">
 
 
 ## **Technology**
 
- * CSS
- * HTML
- * Gitpod
- * Github
+ * CSS- I used css to add style to my HTML code i achieved this with a style.css file and a link within the head of the document.
+ * HTML- I used HTML to add content to my webpages I also used html to structure my webpages.
+ * Gitpod-I used Gitpod to load all my repositories and run my coding platform.
+ * Github- I used Github to store all my repository data and to upload my webpage to the internet.
 
 --- 
 
@@ -109,24 +109,24 @@ NO errors found within CSS code. Validated by  Official Jigsaw - [CLICK HERE](ht
 
 * "The user will notice the header containing the nav and homepage elements also the hammer that take you to the top of each page. Introduction paragraph with a heading, when the user scrolls down the user will notice a video that is playable at the right of video the user will see a paragraph explaining the concept of Viking god:Odin within each paragraph the user will notice clickable link that redirect you to another page explain the highlighted words. Underneath that the user will see two more paragraphs with heading off Thor and Freyja. Lastly the user will notice the footer containing social media clickable icons.."
 
-  * <img src="assets/images/header-Readme.png" width="100%" height="600px">
-  * <img src="assets/images/main-content-readme.png" width="100%" height="600px">
-  * <img src="assets/images/footer-readme.png" width="100%" height="600px">
+  * <img src="assets/images-readme/header-Readme.png" width="100%" height="600px">
+  * <img src="assets/images-readme/main-content-readme.png" width="100%" height="600px">
+  * <img src="assets/images-readme/footer-readme.png" width="100%" height="600px">
 
 * "The user will notice the header and navigation buttons, below that the user will see a page heading that says “Museum” with two icons either side. When the user scrolls down the user will notice three images with paragraphs either side explaining what is in the images. Each paragraph will contain headers, further down the user will see the footer which contains clickable social media icons.":
-  * <img src="assets/images/museum-readme.png" width="100%" height="600px">
-  * <img src="assets/images/museum-2-readme.png" width="100%" height="600px">
+  * <img src="assets/images-readme/museum-readme.png" width="100%" height="600px">
+  * <img src="assets/images-readme/museum-2-readme.png" width="100%" height="600px">
 
 
 * "When the user visits this page via the navigation bar and clicking on the sign-up button. They will notice two headings and a form they are able to fill out. This form consists off a name and surname input box that is required for the from to be able to be submitted. Underneath is an email box that is also required for the user to enter a valid email address. After completing the first section of the form the user will a heading saying, “Rate us!” after that they will notice clickable buttons with the labels Great, Good, Bad. Lastly there is two submit buttons that change colour when the user hover their mouse over the top of them. One button says “reset form” which will erase the forms contents. The other button will redirect the user to another page within the website that confirms that the user ahs been signed up. On this page the user will see the header with all the nav element so they can return to other pages":
-  * <img src="assets/images/newsletter-readme.png" width="100%" height="600px">
+  * <img src="assets/images-readme/newsletter-readme.png" width="100%" height="600px">
 ---
 
 # **Fixed Bugs**
 
 * Homepage image wouldn't sit behind header.
 * Youtube Iframe wasn't loading.
-* paragraphs overflowing on smaller screen sizes.
+* Paragraphs overflowing on smaller screen sizes.
 
 ---
 
@@ -135,7 +135,8 @@ NO errors found within CSS code. Validated by  Official Jigsaw - [CLICK HERE](ht
 * Large desktop screens and mobile devices.(specify)
 ---
 # **Deployment**
-and gitpod
+
+## Github:
 
 * This site was deployed to Github pages. The steps I took are shown below:
   * load up your repository within Github.
@@ -143,6 +144,14 @@ and gitpod
   * Once on settings navigate down to the pages tab.
   * Click on the branch option and select "main", then click save.
   * Wait for a couple of minutes, and you should see a message saying your site is live with the URL.
+
+## Gitpod:
+* This site was also viewed via a browser using Gitpod, these are the steps I took:
+  * open your chosen repository within github.
+  * At the top of the repository press the gitpod button.
+  * Once loaded in to gitpod within the terminal type "python3 -m http.server"
+  * wait for the pop up in the bottom right hand corner of Gitpod.
+  * click the open browser option and it will redirect you to your webpage.
 
 --- 
 ## **Live website URL**

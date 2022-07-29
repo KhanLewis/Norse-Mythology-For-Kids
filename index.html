@@ -15,45 +15,42 @@
 
 <body>
     <header>
-        <div id="logo">
-            <a href="index.html"><img src="assets/images/Thors-hammer-logo.png"
-                    alt="Cartoon image of Thors hammer with lighting effect, homepage link." /></a>
-        </div>
-        <nav>
-            <ul id="index">
-                <li>
-                    <a href="sign-up.html">
-                        <h2>Sign Up <i class="fa-solid fa-pencil"></i></h2>
-                    </a>
-                </li>
+        <div class="homepage-image">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/Thors-hammer-logo.png"
+                        alt="Cartoon image of Thors hammer with lighting effect, homepage link." /></a>
+            </div>
+            <nav>
+                <ul class="index">
+                    <li>
+                        <a href="sign-up.html">
+                            <h2>Sign Up <i class="fa-solid fa-pencil"></i></h2>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="museum.html">
-                        <h2>Museum <i class="fa-solid fa-landmark"></i></h2>
-                    </a>
-                </li>
+                    <li>
+                        <a href="museum.html">
+                            <h2>Museum <i class="fa-solid fa-landmark"></i></h2>
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="index.html">
-                        <h2>Home <i class="fa-solid fa-house-chimney-window"></i></h2>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <br />
-    <section id="homepage-section">
-        <div id="title">
-            <h1>Norse Mythology</h1>
+                    <li>
+                        <a href="index.html">
+                            <h2>Home <i class="fa-solid fa-house-chimney-window"></i></h2>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="title">
+            <h1 >Norse Mythology</h1>
             <h2>For Kids! <i class="fa-solid fa-dragon"></i></h2>
+            </div>
         </div>
-        <div id="homepage-image"></div>
-    </section>
-    <br />
-    <main>
+    </header>
+    <main class="grid-container-homepage">
         <!--Introduction to website -->
-        <section>
-            <div id="introduction">
+        
+            <div class="grid-part grid-part-intro">
                 <h2>What is Norse Mythology?</h2>
                 <p>
                     <em>"Norse"</em> is a term for the medieval Norwegian or Scandinavian civilisation.
@@ -68,20 +65,18 @@
                     Valhalla!
                 </p>
             </div>
-        </section>
         <!--section explaining the gods and iframe links-->
-        <section id="norse-gods-section">
-            <div id="norse-gods-heading">
+            <div class=" grid-part grid-part-heading">
                 <h1><i class="fa-solid fa-cloud-bolt"></i> Norse Gods <i class="fa-solid fa-cloud-bolt"></i></h1>
             </div>
-            <div id="iframe-container">
+            <div class="grid-part grid-part-video-1">
                 <iframe width="540" height="315" src="https://www.youtube.com/embed/6CBmFz8w9NM"
                     title="Youtube video describing how Odin made the world "
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
             </div>
-            <div id="gods-section-1">
+            <div class=" grid-part grid-part-odin">
                 <h2>
                     <a href="https://en.wikipedia.org/wiki/Odinhttps://en.wikipedia.org/wiki/Odin" target="_blank"> Odin
                         <i class="fa-solid fa-crow"></i></a>
@@ -98,7 +93,7 @@
                 </p>
             </div>
 
-            <div id="gods-section-2">
+            <div class="grid-part grid-part-freyja">
                 <a href="https://en.wikipedia.org/wiki/Freyja" target="_blank">
                     <h2>Freyja <i class="fa-solid fa-heart"></i></h2>
                 </a>
@@ -109,7 +104,7 @@
                     Hildisvíni.
                 </p>
             </div>
-            <div id="gods-section-3">
+            <div class="grid-part grid-part-thor">
                 <a href="https://en.wikipedia.org/wiki/Thor" target="_blank">
                     <h2>Thor <i class="fa-solid fa-bolt-lightning"></i></h2>
                 </a>
@@ -121,12 +116,11 @@
                     chariot’s wheels! His chariot was pulled by giant goats!
                 </p>
             </div>
-        </section>
-        <hr />
-        <!--Conclusion containing iframe with youtube link-->
-        <section id="conclusion">
+        <hr>
+        <!-- containing iframe with youtube link-->
+        <section class="grid-part grid-part-video-2">
             <h2>Norse mythology in 15! <i class="fa-solid fa-clock"></i></h2>
-            <div id="iframe-container-2">
+            <div class="iframe-container-2">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2oxzmJPoRu8"
                     title="Youtube video that explains norse mythology in 15 minutes "
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
