@@ -1,88 +1,67 @@
- @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Varela+Round&display=swap');
 
 
-
- /*Removes default browser settings*/
-
+/*Removes default browser settings*/
  * {
      margin: 0;
      padding: 0;
      border: none;
- }
-
- /*body*/
-
+}
+/*all genral styles applied to the body*/
  body {
      font-family: Varela-round, sans-serif;
      font-weight: bold;
      color: #313638;
      background-color: #f2f7f2;
-
-
-     /*headings*/
- }
-
- h1,
- h2 {
+    /*headings*/
+}
+ h1, h2 {
      font-family: koulen, sans-serif;
- }
-
- /*Logo and Navigation list*/
- header {
-     height: 100px;
-     width: 100%;
- }
-
-
-
+}
+header {
+    height: 100px;
+    width: 100%;
+}
+/*Stlyes for page logo (Thors hammer) and Navigation list*/
+ 
  #logo {
      float: left;
      width: 80px;
      height: 80px;
      position: fixed;
      z-index: 2;
- }
-
+}
  #logo img {
      width: 100%;
      height: 100%;
      margin-top: 20px;
      margin-left: 30px;
- }
-
- #logo,
- #index {
+}
+ #logo, #index {
      line-height: 70px;
- }
-
+}
  #index {
      font-size: 1rem;
      letter-spacing: 2px;
      font-family: koulen, sans-serif;
      color: #3e3e3e;
      text-transform: uppercase;
- }
-
+}
  #index li {
      list-style-type: none;
      float: right;
      margin-right: 2rem;
      clear: left;
-
- }
-
+}
  #index a {
      text-decoration: none;
      color: inherit;
      cursor: pointer;
- }
-
+}
  #index a:hover {
      color: #e11218;
- }
-
- /*Homepage Image and Title*/
-
+}
+/*all styles to the ladning page opening image (Homepage Image) and Title*/
  #homepage-image {
      width: 100%;
      height: 412px;
@@ -93,10 +72,7 @@
      position: absolute;
      top: 0;
      z-index: -2;
-
- }
-
-
+}
  #title {
      font-family: koulen, sans-serif;
      text-align: center;
@@ -104,18 +80,12 @@
      font-size: 250%;
      line-height: 60px;
      letter-spacing: 2px;
-
- }
-
+}
  #title h2 {
      font-size: 75%;
      color: #e11218;
-
- }
-
-
- /*introduction section*/
-
+}
+/*introduction section*/
  #introduction {
      width: 75%;
      height: 162px;
@@ -123,58 +93,39 @@
      margin: 220px auto;
      line-height: 25px;
      overflow: hidden;
-
-
-
- }
-
-
+}
  #introduction h2 {
      font-family: Koulen, sans-serif;
      letter-spacing: 1px;
      text-decoration: underline;
      padding-left: 30px;
-
-
- }
-
+}
  #introduction p {
      padding: 15px;
      text-align: center;
-
- }
-
+}
  #introduction a {
      color: #3e3e3e;
      text-decoration: none;
- }
-
+}
  #introduction a:hover {
      font-weight: bolder;
      font-style: italic;
- }
-
- /*Norse gods section*/
-
-
+}
+/*Norse gods section*/
  #norse-gods-section {
      position: relative;
      padding: 50px;
-
- }
-
-
+}
  #norse-gods-heading {
-
      text-align: center;
      font-size: xx-large;
      text-decoration: underline;
      position: absolute;
      top: -100px;
      left: 50%;
-     transform: translate(-50%, -50%)
- }
-
+     transform: translate(-50%, -50%) 
+}
  #gods-section-1 {
      width: 40%;
      height: 300px;
@@ -184,53 +135,36 @@
      position: absolute;
      text-align: right;
      line-height: 1.7rem;
-
-
-
- }
-
+}
  #gods-section-1 h2 {
      font-size: 2.25rem;
      text-decoration: underline;
      text-align: center;
-
- }
-
+}
  #gods-section-1 p {
      padding-top: 20px;
- }
-
+}
  #gods-section-1 a {
      color: #3e3e3e;
      text-decoration: none;
- }
-
+}
  #gods-section-1 a:hover {
      font-weight: bolder;
      font-style: italic;
- }
-
-
-
- /*Iframe*/
-
+}
+/*Iframe*/
  #iframe-container {
      width: 40%;
      height: 315px;
      position: relative;
      margin-left: 50px;
      display: inline-block;
-
-
- }
-
+}
  #iframe-container iframe {
      width: 100%;
      height: 100%;
      position: absolute;
-
- }
-
+}
  #gods-section-2 {
      width: 40%;
      height: 210px;
@@ -242,31 +176,21 @@
      text-align: center;
      line-height: 2rem;
      display: inline-block;
-
-
-
- }
-
+}
  #gods-section-2 h2 {
      font-size: 2.25rem;
      text-decoration: underline;
-
-
- }
-
+}
  #gods-section-2 p {
      padding-top: 20px;
- }
-
+}
  #gods-section-2 a {
      color: #3e3e3e;
- }
-
+}
  #gods-section-2 a:hover {
      font-weight: bolder;
      font-style: italic;
- }
-
+}
  #gods-section-3 {
      width: 40%;
      height: 210px;
@@ -278,106 +202,72 @@
      text-align: center;
      line-height: 1.67rem;
      display: inline-block;
-
- }
-
+}
  #gods-section-3 h2 {
      font-size: 2.25rem;
      text-decoration: underline;
      color: #3e3e3e;
-
-
- }
-
+}
  #gods-section-3 p {
      padding-top: 20px;
- }
-
+}
  #gods-section-3 a {
      color: #3e3e3e;
- }
-
+}
  #gods-section-3 a:hover {
      font-weight: bolder;
      font-style: italic;
- }
-
-
- /*conclusion section*/
-
-
+}
+/*conclusion section*/
  #conclusion {
      height: 400px;
      width: 100%;
      position: relative;
      margin-top: 500px;
      text-align: center;
-
-
- }
-
+}
  #conclusion h2 {
      position: absolute;
      top: -80px;
      left: 50%;
-     transform: translate(-50%, -50%)
- }
-
-
-
+     transform: translate(-50%, -50%) 
+}
  #iframe-container-2 {
      width: 50%;
      bottom: -150px;
      left: 50%;
      position: absolute;
-     transform: translate(-50%, -50%)
- }
-
-
+     transform: translate(-50%, -50%) 
+}
  #iframe-container-2 iframe {
      width: 100%;
      height: 400px;
- }
-
- /*footer*/
-
+}
+/* all styles for the footer including the social media icons*/
  footer {
-
      height: 50px;
      width: 100%;
- }
-
+}
  .social-media {
      text-align: center;
-
- }
-
+}
  .social-media li {
      display: inline;
- }
-
-
+}
  .social-media i {
      font-size: 3rem;
      margin: 50px;
      padding: 10px;
      color: #3e3e3e;
- }
-
+}
  .social-media i:hover {
      color: #e11218;
-
- }
-
+}
  .social-media-static {
      position: static;
      bottom: 0;
-
- }
-
-
- /*museum page */
-
+}
+/* all of the styles for the museum page */
  .grid-container {
      display: grid;
      grid-template-columns: 1fr 1fr;
@@ -385,174 +275,128 @@
      grid-gap: 20px;
      justify-content: center;
      justify-items: center;
-
- }
-
+}
  .grid-item {
-     color: #3e3e3e
- }
-
+     color: #3e3e3e 
+}
  .grid-item h3 {
      font-size: 1.75rem;
      text-align: center;
      text-decoration: underline;
      padding: 10px;
-
- }
-
-
+}
  .grid-item p {
      font-size: 1.1rem;
      padding: 30px;
- }
-
-
+}
  .grid-item-1 {
      grid-column-start: 1;
      grid-column-end: 3;
      font-size: 4rem;
-
-
- }
-
+}
  .grid-item-2 {
      grid-column: span 1;
      grid-row: span 1;
-     width: 75%
- }
-
+     width: 75% 
+}
  .grid-item-2 img {
      width: 100%;
      height: 100%;
- }
-
+}
  .grid-item-4 {
      grid-column: span 1;
      grid-row: span 1;
-     width: 75%
- }
-
+     width: 75% 
+}
  .grid-item-4 img {
      width: 100%;
      height: 100%;
- }
-
-
+}
  .grid-item-6 {
      grid-column: span 1;
      grid-row: span 1;
-     width: 75%
- }
-
+     width: 75% 
+}
  .grid-item-6 img {
      width: 100%;
      height: 100%;
- }
-
-
- /*sign-up page*/
-
+}
+/* all of the styles for the sign-up page*/
  .form-section {
      height: 300px;
      width: 100%;
      color: #3e3e3e;
      background-color: rgba(255, 255, 255, 0.8);
      text-align: center;
-
      margin-top: 150px;
      margin-bottom: 200px;
- }
-
+}
  .form-section h1 {
      font-size: 2rem;
      text-decoration: underline;
-
- }
-
+}
  .form-section p {
      font-size: 1.2rem;
      text-transform: uppercase;
- }
-
-
+}
  .form-section input[type=text] {
      padding: 2px;
      background-color: #f2f7f2;
      width: 200px;
- }
-
+}
  .form-section input[type=email] {
      padding: 2px;
      background-color: #f2f7f2;
      width: 240px;
- }
-
+}
  .form-section input[type=submit] {
-    background-color: #f2f7f2;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding:5px;
-    margin-right:10px;
- }
+     background-color: #f2f7f2;
+     text-transform: uppercase;
+     font-weight: 700;
+     padding:5px;
+     margin-right:10px;
+}
  .form-section input[type=submit]:hover {
-    color:#f2f7f2;
-    background-color: #e11218;
-    cursor:pointer;
- }
-
+     color:#f2f7f2;
+     background-color: #e11218;
+     cursor:pointer;
+}
  .form-section input[type=reset] {
-    background-color: #f2f7f2;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding:5px;
-
- }
+     background-color: #f2f7f2;
+     text-transform: uppercase;
+     font-weight: 700;
+     padding:5px;
+}
  .form-section input[type=reset]:hover{
-    color:#f2f7f2;
-    background-color: #e11218;
-    cursor:pointer;
- }
-
+     color:#f2f7f2;
+     background-color: #e11218;
+     cursor:pointer;
+}
  .form-section input[type=radio]:after{
-
-    color:red;
- }
-
-
+     color:#e11218;
+}
  .form-image {
-    overflow: hidden;
-    margin: 50px auto;
+     overflow: hidden;
+     margin: 50px auto;
+}
+/* all of the media queries for different screen sizes*/
 
- }
-
-
- /*media queries*/
-
- /*medium sized screens */
+/*medium sized screens */
  @media screen and (max-width:1200px) {
-
-
      #introduction {
          width: 65%;
          height: 270px;
-     }
-
+    }
      #norse-gods-section {
          width: 65%;
          height: 1200px;
          margin: 0 auto;
-
-     }
-
+    }
      #iframe-container {
          width: 100%;
          margin: 0 auto;
-
-     }
-
-     #gods-section-1,
-     #gods-section-2,
-     #gods-section-3 {
+    }
+     #gods-section-1, #gods-section-2, #gods-section-3 {
          padding: 40px 0 0 10px;
          width: 100%;
          height: 20%;
@@ -562,103 +406,81 @@
          height: 30%;
          position: static;
          text-align: center;
-     }
-
+    }
      #conclusion {
          width: 65%;
          margin: 0 auto;
          padding-top: 420px;
-     }
-
+    }
      #conclusion h2 {
          top: 320px;
-     }
-
+    }
      #iframe-container-2 {
          width: 100%;
-
-     }
+    }
      .form-section p {
-        font-size:1rem;
-     }
- }
-
+         font-size:1rem;
+    }
+}
+/*media query for screen size 860px*/
  @media screen and (max-width:860px) {
-
      #index {
          clear: left;
          float: right;
          margin-left: 35px;
-     }
-
+    }
      #homepage-image {
-         width: 100%
-     }
-
+         width: 100% 
+    }
      #norse-gods-heading h1 {
          font-size: 40px;
-     }
+    }
      .form-section p {
-        font-size:0.9rem;
-     }
- }
-
+         font-size:0.9rem;
+    }
+}
  @media screen and (max-width:780px) {
-
-
-
      #introduction {
          width: 80%;
-     }
-
+    }
      #norse-gods-section {
          width: 80%;
-     }
-
+    }
      #conclusion {
          width: 80%;
-     }
-
+    }
      body p {
          font-size: 15px;
-     }
+    }
      .form-section p {
-        font-size:0.9rem;
-        width: 100%;
-     }
+         font-size:0.9rem;
+         width: 100%;
+    }
      .form-image {
-        width:100%;
-        padding:0;
-       
-     }
+         width:100%;
+         padding:0;
+    }
      .form-image img {
-        width:600px
-     }
-
- }
-
+         width:600px 
+    }
+}
  @media screen and (max-width:600px) {
-
      #logo {
          width: 55px;
          height: 55px;
-     }
-
+    }
      #introduction {
          border: none;
          overflow: visible;
-     }
-
+    }
      #introduction h2 {
          text-align: center;
-     }
-
+    }
      #conclusion h2 {
          padding-top: 20px;
          font-size: 20px;
-     }
-
+    }
      #norse-gods-heading h1 {
          font-size: 35px;
-     }
- }
+    }
+}

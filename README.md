@@ -94,9 +94,6 @@ them find an interest into the history of other cultures and how humanity once l
 
 --- 
 
-
-
-
 # **Testing:** 
 
 ## **HTML Vaildator** 
@@ -109,31 +106,36 @@ NO errors found within CSS code. Validated by  Official Jigsaw - [CLICK HERE](ht
 
 ---
 # **Test cases**
-* "As a visiting user I would like to understand the content of the website":
+
+* "The user will notice the header containing the nav and homepage elements also the hammer that take you to the top of each page. Introduction paragraph with a heading, when the user scrolls down the user will notice a video that is playable at the right of video the user will see a paragraph explaining the concept of Viking god:Odin within each paragraph the user will notice clickable link that redirect you to another page explain the highlighted words. Underneath that the user will see two more paragraphs with heading off Thor and Freyja. Lastly the user will notice the footer containing social media clickable icons.."
+
   * <img src="assets/images/header-Readme.png" width="100%" height="600px">
   * <img src="assets/images/main-content-readme.png" width="100%" height="600px">
   * <img src="assets/images/footer-readme.png" width="100%" height="600px">
 
-* "As a visiting user I would like to see a museum":
+* "The user will notice the header and navigation buttons, below that the user will see a page heading that says “Museum” with two icons either side. When the user scrolls down the user will notice three images with paragraphs either side explaining what is in the images. Each paragraph will contain headers, further down the user will see the footer which contains clickable social media icons.":
   * <img src="assets/images/museum-readme.png" width="100%" height="600px">
   * <img src="assets/images/museum-2-readme.png" width="100%" height="600px">
 
 
-* "As a visiting user I would like to sign up for a monthly newsletter":
+* "When the user visits this page via the navigation bar and clicking on the sign-up button. They will notice two headings and a form they are able to fill out. This form consists off a name and surname input box that is required for the from to be able to be submitted. Underneath is an email box that is also required for the user to enter a valid email address. After completing the first section of the form the user will a heading saying, “Rate us!” after that they will notice clickable buttons with the labels Great, Good, Bad. Lastly there is two submit buttons that change colour when the user hover their mouse over the top of them. One button says “reset form” which will erase the forms contents. The other button will redirect the user to another page within the website that confirms that the user ahs been signed up. On this page the user will see the header with all the nav element so they can return to other pages":
   * <img src="assets/images/newsletter-readme.png" width="100%" height="600px">
 ---
 
 # **Fixed Bugs**
 
 * Homepage image wouldn't sit behind header.
+* Youtube Iframe wasn't loading.
+* paragraphs overflowing on smaller screen sizes.
 
 ---
 
 # **Supported screen sizes**
 
-* Large desktop screens and mobile devices.
+* Large desktop screens and mobile devices.(specify)
 ---
 # **Deployment**
+and gitpod
 
 * This site was deployed to Github pages. The steps I took are shown below:
   * load up your repository within Github.
