@@ -132,7 +132,7 @@ NO errors found within CSS code. Validated by  Official Jigsaw - [CLICK HERE](ht
 
 # **Supported screen sizes**
 
-* Large desktop screens and mobile devices.(specify)
+* I have tested the screen sizes from 390px to 1500px using google's deveolper tools the website is fully responsive in between these sizes.
 ---
 # **Deployment**
 

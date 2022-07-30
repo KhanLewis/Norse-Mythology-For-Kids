@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Varela+Round&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Varela+Round&display=swap");
 
 /*Removes default browser settings*/
 * {
@@ -96,7 +95,6 @@ header {
     top: 150px;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .title h2 {
@@ -113,11 +111,10 @@ header {
     justify-content: center;
     justify-items: center;
     padding: 10px;
-
 }
 
 .grid-part {
-    color: #3e3e3e
+    color: #3e3e3e;
 }
 
 .grid-part-intro {
@@ -135,21 +132,18 @@ header {
     text-align: center;
     font-size: 2.5rem;
     padding: 50px;
-
 }
 
 .grid-part-video-1 {
     grid-column: span 1;
     width: 80%;
     margin-left: 10%;
-
 }
 
 .grid-part-odin {
     grid-column: span 1;
     text-align: right;
     border-bottom: 5px solid #e11218;
-
 }
 
 .grid-part-freyja {
@@ -192,7 +186,6 @@ header {
 .grid-part a {
     text-decoration: none;
     color: #3e3e3e;
-
 }
 
 .grid-part a:hover {
@@ -220,7 +213,7 @@ header {
 }
 
 .grid-item {
-    color: #3e3e3e
+    color: #3e3e3e;
 }
 
 .grid-item h3 {
@@ -244,7 +237,7 @@ header {
 .grid-item-2 {
     grid-column: span 1;
     grid-row: span 1;
-    width: 75%
+    width: 75%;
 }
 
 .grid-item-2 img {
@@ -255,7 +248,7 @@ header {
 .grid-item-4 {
     grid-column: span 1;
     grid-row: span 1;
-    width: 75%
+    width: 75%;
 }
 
 .grid-item-4 img {
@@ -266,7 +259,7 @@ header {
 .grid-item-6 {
     grid-column: span 1;
     grid-row: span 1;
-    width: 75%
+    width: 75%;
 }
 
 .grid-item-6 img {
@@ -295,19 +288,19 @@ header {
     text-transform: uppercase;
 }
 
-.form-section input[type=text] {
+.form-section input[type="text"] {
     padding: 2px;
     background-color: #f2f7f2;
     width: 200px;
 }
 
-.form-section input[type=email] {
+.form-section input[type="email"] {
     padding: 2px;
     background-color: #f2f7f2;
     width: 240px;
 }
 
-.form-section input[type=submit] {
+.form-section input[type="submit"] {
     background-color: #f2f7f2;
     text-transform: uppercase;
     font-weight: 700;
@@ -315,26 +308,26 @@ header {
     margin-right: 10px;
 }
 
-.form-section input[type=submit]:hover {
+.form-section input[type="submit"]:hover {
     color: #f2f7f2;
     background-color: #e11218;
     cursor: pointer;
 }
 
-.form-section input[type=reset] {
+.form-section input[type="reset"] {
     background-color: #f2f7f2;
     text-transform: uppercase;
     font-weight: 700;
     padding: 5px;
 }
 
-.form-section input[type=reset]:hover {
+.form-section input[type="reset"]:hover {
     color: #f2f7f2;
     background-color: #e11218;
     cursor: pointer;
 }
 
-.form-section input[type=radio]:after {
+.form-section input[type="radio"]:after {
     color: #e11218;
 }
 
@@ -343,7 +336,7 @@ header {
     margin: 50px auto;
 }
 .form-image img {
-    width:100%;
+    width: 100%;
 }
 
 .redirect {
@@ -377,14 +370,11 @@ footer {
     color: #e11218;
 }
 
-
-
 /* all of the media queries for different screen sizes*/
 
 /*mobile phone screen min=390px*/
 
-@media screen and (max-width:390px) {
-
+@media screen and (max-width: 390px) {
     /*overall styles and homepage*/
     .title {
         font-size: 175%;
@@ -400,7 +390,7 @@ footer {
 
     .grid-part {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .grid-part-intro {
@@ -418,7 +408,6 @@ footer {
         grid-column: span 2;
         overflow: hidden;
         width: 100%;
-
     }
 
     .grid-part-odin {
@@ -440,7 +429,7 @@ footer {
     }
 
     .grid-part-video-2 iframe {
-        height: 350px
+        height: 350px;
     }
 
     .grid-part h2 {
@@ -479,21 +468,19 @@ footer {
 
     .grid-item-6 {
         grid-column: span 2;
-        width: 100%
+        width: 100%;
     }
     .grid-item-7 {
         grid-column: span 2;
         width: 100%;
     }
-/*styles for sign-up page */
+    /*styles for sign-up page */
     .form-section {
-        height:350px;
+        height: 350px;
     }
-    
-    
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width: 740px) {
     .title {
         font-size: 200%;
     }
@@ -508,7 +495,7 @@ footer {
 
     .grid-part {
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     .grid-part-intro {
@@ -526,7 +513,6 @@ footer {
         grid-column: span 2;
         overflow: hidden;
         width: 100%;
-
     }
 
     .grid-part-odin {
@@ -548,7 +534,7 @@ footer {
     }
 
     .grid-part-video-2 iframe {
-        height: 350px
+        height: 350px;
     }
 
     .grid-part h2 {
@@ -557,10 +543,9 @@ footer {
 
     .social-media i {
         margin: 30px;
-        
     }
     /*styles for museum page*/
-   
+
     .grid-item-1 {
         grid-column: span 2;
         width: 100%;
@@ -588,7 +573,7 @@ footer {
 
     .grid-item-6 {
         grid-column: span 2;
-        width: 100%
+        width: 100%;
     }
     .grid-item-7 {
         grid-column: span 2;
@@ -596,7 +581,6 @@ footer {
     }
     /*styles for sign-up page */
     .form-section {
-        height:350px;
+        height: 350px;
     }
-    
 }
