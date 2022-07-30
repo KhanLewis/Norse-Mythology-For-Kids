@@ -450,10 +450,6 @@ footer {
 
     /*styles for museum page*/
 
-    .grid-item {
-        color: #3e3e3e
-    }
-
     .grid-item-1 {
         grid-column: span 2;
         width: 100%;
@@ -486,6 +482,107 @@ footer {
         grid-column: span 2;
         width: 100%;
     }
+}
 
+@media screen and (max-width:740px) {
+    .title {
+        font-size: 200%;
+    }
 
+    .index {
+        letter-spacing: 0;
+    }
+
+    .logo {
+        top: 30px;
+    }
+
+    .grid-part {
+        margin: 0;
+        padding: 0
+    }
+
+    .grid-part-intro {
+        grid-column: span 2;
+        width: auto;
+    }
+
+    .grid-part-heading {
+        grid-column: span 2;
+        width: 100%;
+        font-size: 150%;
+    }
+
+    .grid-part-video-1 {
+        grid-column: span 2;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    .grid-part-odin {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .grid-part-thor {
+        grid-column: span 2;
+    }
+
+    .grid-part-freyja {
+        grid-column: span 2;
+    }
+
+    .grid-part-video-2 {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+    .grid-part-video-2 iframe {
+        height: 350px
+    }
+
+    .grid-part h2 {
+        line-height: 50px;
+    }
+
+    .social-media i {
+        margin: 30px;
+        
+    }
+   
+    .grid-item-1 {
+        grid-column: span 2;
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .grid-item-2 {
+        grid-column: span 2;
+        width: 100%;
+    }
+    .grid-item-3 {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+    .grid-item-4 {
+        grid-column: span 2;
+        width: 100%;
+    }
+    .grid-item-5 {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+    .grid-item-6 {
+        grid-column: span 2;
+        width: 100%
+    }
+    .grid-item-7 {
+        grid-column: span 2;
+        width: 100%;
+    }
+    
 }
