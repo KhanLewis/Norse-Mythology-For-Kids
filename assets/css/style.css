@@ -13,9 +13,9 @@ body {
     font-weight: bold;
     color: #313638;
     background-color: #f2f7f2;
-    /*headings*/
 }
 
+/*headings*/
 h1,
 h2 {
     font-family: koulen, sans-serif;
@@ -272,7 +272,7 @@ header {
     height: 300px;
     width: 100%;
     color: #3e3e3e;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #F8F0E3;
     text-align: center;
     margin-top: -150px;
     margin-bottom: 200px;
