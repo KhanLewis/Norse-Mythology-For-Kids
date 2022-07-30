@@ -342,6 +342,9 @@ header {
     overflow: hidden;
     margin: 50px auto;
 }
+.form-image img {
+    width:100%;
+}
 
 .redirect {
     margin-top: -150px;
@@ -482,6 +485,12 @@ footer {
         grid-column: span 2;
         width: 100%;
     }
+/*styles for sign-up page */
+    .form-section {
+        height:350px;
+    }
+    
+    
 }
 
 @media screen and (max-width:740px) {
@@ -550,6 +559,7 @@ footer {
         margin: 30px;
         
     }
+    /*styles for museum page*/
    
     .grid-item-1 {
         grid-column: span 2;
@@ -583,6 +593,10 @@ footer {
     .grid-item-7 {
         grid-column: span 2;
         width: 100%;
+    }
+    /*styles for sign-up page */
+    .form-section {
+        height:350px;
     }
     
 }
