@@ -112,8 +112,8 @@ header {
     grid-gap: 20px;
     justify-content: center;
     justify-items: center;
-    padding:10px;
-    
+    padding: 10px;
+
 }
 
 .grid-part {
@@ -124,9 +124,9 @@ header {
     grid-column: span 2;
     width: 75%;
     text-align: center;
-    border-bottom: 5px solid #e11218 ;
-    padding-top:50px;
-    padding-bottom:50px;
+    border-bottom: 5px solid #e11218;
+    padding-top: 50px;
+    padding-bottom: 50px;
     line-height: 1.5em;
 }
 
@@ -134,41 +134,43 @@ header {
     grid-column: span 2;
     text-align: center;
     font-size: 2.5rem;
-    padding:50px;
-    
+    padding: 50px;
+
 }
 
 .grid-part-video-1 {
     grid-column: span 1;
-    width:80%;
-    margin-left:10%;
-    
+    width: 80%;
+    margin-left: 10%;
+
 }
+
 .grid-part-odin {
     grid-column: span 1;
     text-align: right;
     border-bottom: 5px solid #e11218;
 
 }
+
 .grid-part-freyja {
     grid-column: span 1;
     text-align: center;
     border-bottom: 5px solid #e11218;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .grid-part-thor {
     grid-column: span 1;
     text-align: center;
     border-bottom: 5px solid #e11218;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .grid-part-video-2 {
     grid-column: span 2;
     text-align: center;
     margin-top: 50px;
-    width:75%;
+    width: 75%;
 }
 
 .grid-part-intro h2 {
@@ -178,9 +180,10 @@ header {
 
 .grid-part p {
     font-size: 1.2rem;
-    font-weight:700;
-    padding:20px;
+    font-weight: 700;
+    padding: 20px;
 }
+
 .grid-part h2 {
     font-size: 250%;
     text-align: center;
@@ -188,133 +191,156 @@ header {
 
 .grid-part a {
     text-decoration: none;
-    color:#3e3e3e;
+    color: #3e3e3e;
 
 }
+
 .grid-part a:hover {
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-decoration: underline;
 }
 
 .grid-part-video-2 iframe {
-    width:100%;
-    height:500px;
+    width: 100%;
+    height: 500px;
 }
+
 .grid-part-video-1 iframe {
-    width:100%;
+    width: 100%;
 }
 
 /* all of the styles for the museum page */
- .grid-container {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 200px;
-     grid-gap: 20px;
-     justify-content: center;
-     justify-items: center;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+    grid-gap: 20px;
+    justify-content: center;
+    justify-items: center;
 }
- .grid-item {
-     color: #3e3e3e 
+
+.grid-item {
+    color: #3e3e3e
 }
- .grid-item h3 {
-     font-size: 1.75rem;
-     text-align: center;
-     text-decoration: underline;
-     padding: 10px;
+
+.grid-item h3 {
+    font-size: 1.75rem;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
 }
- .grid-item p {
-     font-size: 1.1rem;
-     padding: 30px;
+
+.grid-item p {
+    font-size: 1.1rem;
+    padding: 30px;
 }
- .grid-item-1 {
-     grid-column-start: 1;
-     grid-column-end: 3;
-     font-size: 4rem;
+
+.grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 4rem;
 }
- .grid-item-2 {
-     grid-column: span 1;
-     grid-row: span 1;
-     width: 75% 
+
+.grid-item-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 75%
 }
- .grid-item-2 img {
-     width: 100%;
-     height: 100%;
+
+.grid-item-2 img {
+    width: 100%;
+    height: 100%;
 }
- .grid-item-4 {
-     grid-column: span 1;
-     grid-row: span 1;
-     width: 75% 
+
+.grid-item-4 {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 75%
 }
- .grid-item-4 img {
-     width: 100%;
-     height: 100%;
+
+.grid-item-4 img {
+    width: 100%;
+    height: 100%;
 }
- .grid-item-6 {
-     grid-column: span 1;
-     grid-row: span 1;
-     width: 75% 
+
+.grid-item-6 {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 75%
 }
- .grid-item-6 img {
-     width: 100%;
-     height: 100%;
+
+.grid-item-6 img {
+    width: 100%;
+    height: 100%;
 }
+
 /* all of the styles for the sign-up page*/
- .form-section {
-     height: 300px;
-     width: 100%;
-     color: #3e3e3e;
-     background-color: rgba(255, 255, 255, 0.8);
-     text-align: center;
-     margin-top:-150px;
-     margin-bottom: 200px;
+.form-section {
+    height: 300px;
+    width: 100%;
+    color: #3e3e3e;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: 200px;
 }
- .form-section h1 {
-     font-size: 2rem;
-     text-decoration: underline;
+
+.form-section h1 {
+    font-size: 2rem;
+    text-decoration: underline;
 }
- .form-section p {
-     font-size: 1.2rem;
-     text-transform: uppercase;
+
+.form-section p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
- .form-section input[type=text] {
-     padding: 2px;
-     background-color: #f2f7f2;
-     width: 200px;
+
+.form-section input[type=text] {
+    padding: 2px;
+    background-color: #f2f7f2;
+    width: 200px;
 }
- .form-section input[type=email] {
-     padding: 2px;
-     background-color: #f2f7f2;
-     width: 240px;
+
+.form-section input[type=email] {
+    padding: 2px;
+    background-color: #f2f7f2;
+    width: 240px;
 }
- .form-section input[type=submit] {
-     background-color: #f2f7f2;
-     text-transform: uppercase;
-     font-weight: 700;
-     padding:5px;
-     margin-right:10px;
+
+.form-section input[type=submit] {
+    background-color: #f2f7f2;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px;
+    margin-right: 10px;
 }
- .form-section input[type=submit]:hover {
-     color:#f2f7f2;
-     background-color: #e11218;
-     cursor:pointer;
+
+.form-section input[type=submit]:hover {
+    color: #f2f7f2;
+    background-color: #e11218;
+    cursor: pointer;
 }
- .form-section input[type=reset] {
-     background-color: #f2f7f2;
-     text-transform: uppercase;
-     font-weight: 700;
-     padding:5px;
+
+.form-section input[type=reset] {
+    background-color: #f2f7f2;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px;
 }
- .form-section input[type=reset]:hover{
-     color:#f2f7f2;
-     background-color: #e11218;
-     cursor:pointer;
+
+.form-section input[type=reset]:hover {
+    color: #f2f7f2;
+    background-color: #e11218;
+    cursor: pointer;
 }
- .form-section input[type=radio]:after{
-     color:#e11218;
+
+.form-section input[type=radio]:after {
+    color: #e11218;
 }
- .form-image {
-     overflow: hidden;
-     margin: 50px auto;
+
+.form-image {
+    overflow: hidden;
+    margin: 50px auto;
 }
 
 .redirect {
@@ -328,18 +354,22 @@ footer {
     height: 50px;
     width: 100%;
 }
+
 .social-media {
     text-align: center;
 }
+
 .social-media li {
     display: inline;
 }
+
 .social-media i {
     font-size: 3rem;
     margin: 10%;
     padding: 10px;
     color: #3e3e3e;
 }
+
 .social-media i:hover {
     color: #e11218;
 }
@@ -350,61 +380,112 @@ footer {
 
 /*mobile phone screen min=390px*/
 
-@media screen and (max-width:390px) 
-{
+@media screen and (max-width:390px) {
 
-/*overall styles and homepage*/
+    /*overall styles and homepage*/
     .title {
         font-size: 175%;
     }
+
     .index {
         letter-spacing: 0;
     }
+
     .logo {
-        top:30px;
+        top: 30px;
     }
+
     .grid-part {
-        margin:0;
-        padding:0
+        margin: 0;
+        padding: 0
     }
+
     .grid-part-intro {
         grid-column: span 2;
         width: auto;
     }
+
     .grid-part-heading {
         grid-column: span 2;
-        width:100%;
+        width: 100%;
         font-size: 150%;
     }
-    .grid-part-video-1{
+
+    .grid-part-video-1 {
         grid-column: span 2;
         overflow: hidden;
-        width:100%;
-        
+        width: 100%;
+
     }
-    .grid-part-odin{
+
+    .grid-part-odin {
         grid-column: span 2;
         text-align: center;
     }
+
     .grid-part-thor {
         grid-column: span 2;
     }
+
     .grid-part-freyja {
         grid-column: span 2;
     }
+
     .grid-part-video-2 {
         grid-column: span 2;
-        width:100%;
+        width: 100%;
     }
+
     .grid-part-video-2 iframe {
-        height:350px
-       }
+        height: 350px
+    }
+
     .grid-part h2 {
         line-height: 50px;
     }
+
     .social-media i {
-        margin:20px;
-       }
-/*styles for museum page*/
-      
+        margin: 20px;
     }
+
+    /*styles for museum page*/
+
+    .grid-item {
+        color: #3e3e3e
+    }
+
+    .grid-item-1 {
+        grid-column: span 2;
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .grid-item-2 {
+        grid-column: span 2;
+        width: 100%;
+    }
+    .grid-item-3 {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+    .grid-item-4 {
+        grid-column: span 2;
+        width: 100%;
+    }
+    .grid-item-5 {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+    .grid-item-6 {
+        grid-column: span 2;
+        width: 100%
+    }
+    .grid-item-7 {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+
+}
